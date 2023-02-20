@@ -1,0 +1,6 @@
+D:\William\AddDTW\Vistony.DTW.BO\bin\Debug\Vistony.DTW.BO.dll
+D:\William\AddDTW\Vistony.DTW.BO\bin\Debug\Vistony.DTW.BO.pdb
+D:\William\AddDTW\Vistony.DTW.BO\bin\Debug\Forxap.Framework.dll
+D:\William\AddDTW\Vistony.DTW.BO\bin\Debug\SAPBusinessOneSDK.dll
+D:\William\AddDTW\Vistony.DTW.BO\obj\Debug\Vistony.DTW.BO.dll
+D:\William\AddDTW\Vistony.DTW.BO\obj\Debug\Vistony.DTW.BO.pdb

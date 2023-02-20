@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserScripts>
+  
+  	<!-- Archivo para registrar los Categorys, User Querys y Stored Procedures FormattedSearches-->
+  <UserProcedure Description = " ">
+    <FileName>ADDON_LIST_OBJECT_DTW.sql</FileName>
+  </UserProcedure>
+
+  <UserProcedure Description = " ">
+    <FileName>ADDON_LIST_TABLE_OBJECT_DTW.sql</FileName>
+  </UserProcedure>
+  
+</UserScripts>

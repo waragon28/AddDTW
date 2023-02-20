@@ -1,0 +1,11 @@
+<Application>
+  <Menus>
+    <action type="add">
+
+
+      <!-- Menu del AddOn Distribución y última milla como modulo-->
+      <Menu Checked="0" Enabled="1" FatherUID="2048"  Image="" Position="5" String="DTW VISTONY" Type="1" UniqueID="dtw001"></Menu>
+      
+    </action>
+  </Menus>
+</Application>

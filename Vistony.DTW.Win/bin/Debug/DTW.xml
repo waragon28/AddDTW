@@ -1,0 +1,958 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DTW</name>
+    </assembly>
+    <members>
+        <member name="M:Vistony.DTW.Win.Asistentes.DataTransferWorkbench.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Vistony.DTW.Win.Asistentes.DataTransferWorkbench.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Asistentes.BaseWizard.PaneLevel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Asistentes.BaseWizard.PaneMax">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vistony.DTW.Win.Asistentes.BaseWizard.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Vistony.DTW.Win.Asistentes.BaseWizard.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+        <member name="T:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.AddonName">
+            <summary>
+              Busca una cadena traducida similar a Addon Vistony Distribution.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.FinishLoading">
+            <summary>
+              Busca una cadena traducida similar a Load Finished ....
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message001">
+            <summary>
+              Busca una cadena traducida similar a Starting Menu Load....
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message003">
+            <summary>
+              Busca una cadena traducida similar a Error Loading Menu.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message100">
+            <summary>
+              Busca una cadena traducida similar a Select date from.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message101">
+            <summary>
+              Busca una cadena traducida similar a Select the date until.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message102">
+            <summary>
+              Busca una cadena traducida similar a Select Worker.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message103">
+            <summary>
+              Busca una cadena traducida similar a Select State.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message104">
+            <summary>
+              Busca una cadena traducida similar a Select Business Unit.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message105">
+            <summary>
+              Busca una cadena traducida similar a Select Vendor Code.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message120">
+            <summary>
+              Busca una cadena traducida similar a Date From cannot be less than : {0}.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message122">
+            <summary>
+              Busca una cadena traducida similar a Next &gt;.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message123">
+            <summary>
+              Busca una cadena traducida similar a To finalize.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message208">
+            <summary>
+              Busca una cadena traducida similar a Dispatch is already consolidated.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message209">
+            <summary>
+              Busca una cadena traducida similar a Document : {0} was consolidated successfully.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message210">
+            <summary>
+              Busca una cadena traducida similar a Document : {0} is being processed.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message211">
+            <summary>
+              Busca una cadena traducida similar a Document: {0} assigned to Driver: {1}.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message212">
+            <summary>
+              Busca una cadena traducida similar a Step {0} of {1}.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message301">
+            <summary>
+              Busca una cadena traducida similar a Did not mark any record.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message302">
+            <summary>
+              Busca una cadena traducida similar a Error in set date range.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message303">
+            <summary>
+              Busca una cadena traducida similar a Select Driver.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message304">
+            <summary>
+              Busca una cadena traducida similar a Select Plate.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message305">
+            <summary>
+              Busca una cadena traducida similar a Select Helper.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message306">
+            <summary>
+              Busca una cadena traducida similar a Select Date.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message307">
+            <summary>
+              Busca una cadena traducida similar a Are you sure to schedule the marked documents?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message308">
+            <summary>
+              Busca una cadena traducida similar a Completed Driver Assignment.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message309">
+            <summary>
+              Busca una cadena traducida similar a Are you sure to change the dispatch status for the marked documents?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message310">
+            <summary>
+              Busca una cadena traducida similar a finished process.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message311">
+            <summary>
+              Busca una cadena traducida similar a Are you sure to change the dispatch status to Delivered for the marked documents?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message312">
+            <summary>
+              Busca una cadena traducida similar a You must select a type of Occurrence.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message313">
+            <summary>
+              Busca una cadena traducida similar a You must select a type of State.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message314">
+            <summary>
+              Busca una cadena traducida similar a You must select an option to program.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message315">
+            <summary>
+              Busca una cadena traducida similar a You must select date to program.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message316">
+            <summary>
+              Busca una cadena traducida similar a Select a type of consolidation.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message317">
+            <summary>
+              Busca una cadena traducida similar a Are you sure to save {0} to the marked records?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message318">
+            <summary>
+              Busca una cadena traducida similar a Document: {0} Could not update {1}.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message319">
+            <summary>
+              Busca una cadena traducida similar a Are you sure to change the dispatch status to Scheduled for the marked documents?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message320">
+            <summary>
+              Busca una cadena traducida similar a Adding Dispatch Sheet Record.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message321">
+            <summary>
+              Busca una cadena traducida similar a Are you sure to change the dispatch status to Scheduled for the marked documents?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message322">
+            <summary>
+              Busca una cadena traducida similar a Are you sure to change the dispatch status to Scheduled for the marked documents?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message324">
+            <summary>
+              Busca una cadena traducida similar a The Dispatch Sheet was created for the driver &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message325">
+            <summary>
+              Busca una cadena traducida similar a Updating Dispatch Tracking.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message326">
+            <summary>
+              Busca una cadena traducida similar a Updated Dispatch Tracking.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message327">
+            <summary>
+              Busca una cadena traducida similar a Select at least 1 record.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message328">
+            <summary>
+              Busca una cadena traducida similar a Select a State.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message329">
+            <summary>
+              Busca una cadena traducida similar a The Order is already Scheduled.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message330">
+            <summary>
+              Busca una cadena traducida similar a Select an Occurrence.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message331">
+            <summary>
+              Busca una cadena traducida similar a Wrong imei.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message332">
+            <summary>
+              Busca una cadena traducida similar a The Imei is assigned to another employee \n Do you want to update it ?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message333">
+            <summary>
+              Busca una cadena traducida similar a The IMEI was updated correctly.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.Message334">
+            <summary>
+              Busca una cadena traducida similar a Validating Data.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.MessageFinTracker">
+            <summary>
+              Busca una cadena traducida similar a Tracker Upload Finished.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.MessageInicioTracker">
+            <summary>
+              Busca una cadena traducida similar a Starting Tracker Upload.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.NotRowFound">
+            <summary>
+              Busca una cadena traducida similar a No data found with the selected criteria.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.SAPNotRunning">
+            <summary>
+              Busca una cadena traducida similar a SAP Business One is not running.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.EnglishUnited_States.StartLoading">
+            <summary>
+              Busca una cadena traducida similar a Starting Charge ....
+            </summary>
+        </member>
+        <member name="T:Vistony.DTW.Win.Constans.Idioma.Frances">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.AddonName">
+            <summary>
+              Busca una cadena traducida similar a Vistony Complément de distribution.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.FinishLoading">
+            <summary>
+              Busca una cadena traducida similar a Chargement terminé ....
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message001">
+            <summary>
+              Busca una cadena traducida similar a Chargement du menu de démarrage....
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message003">
+            <summary>
+              Busca una cadena traducida similar a Erreur lors du chargement du menu.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message100">
+            <summary>
+              Busca una cadena traducida similar a Sélectionnez la date de.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message101">
+            <summary>
+              Busca una cadena traducida similar a Sélectionnez la date jusqu&apos;au.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message102">
+            <summary>
+              Busca una cadena traducida similar a Sélectionnez le travailleur.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message103">
+            <summary>
+              Busca una cadena traducida similar a Sélectionnez l&apos;état.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message104">
+            <summary>
+              Busca una cadena traducida similar a Sélectionnez l&apos;unité commerciale.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message105">
+            <summary>
+              Busca una cadena traducida similar a Sélectionnez le code fournisseur.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message120">
+            <summary>
+              Busca una cadena traducida similar a La date de ne peut pas être inférieure à : {0}.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message122">
+            <summary>
+              Busca una cadena traducida similar a Suivant &gt;.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message123">
+            <summary>
+              Busca una cadena traducida similar a Finaliser.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message208">
+            <summary>
+              Busca una cadena traducida similar a L&apos;expédition est déjà consolidée.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message209">
+            <summary>
+              Busca una cadena traducida similar a Document : {0} a été consolidé avec succès.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message210">
+            <summary>
+              Busca una cadena traducida similar a Document : {0} est en cours de traitement.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message211">
+            <summary>
+              Busca una cadena traducida similar a Document : {0} attribué au conducteur : {1}.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message212">
+            <summary>
+              Busca una cadena traducida similar a Étape {0} sur {1}.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message301">
+            <summary>
+              Busca una cadena traducida similar a N&apos;a marqué aucun enregistrement.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message302">
+            <summary>
+              Busca una cadena traducida similar a Erreur dans la plage de dates définie.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message303">
+            <summary>
+              Busca una cadena traducida similar a Sélectionnez le pilote.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message304">
+            <summary>
+              Busca una cadena traducida similar a Sélectionner la plaque.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message305">
+            <summary>
+              Busca una cadena traducida similar a Sélectionnez l&apos;assistant.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message306">
+            <summary>
+              Busca una cadena traducida similar a Sélectionner une date.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message307">
+            <summary>
+              Busca una cadena traducida similar a Êtes-vous sûr de planifier les documents marqués ?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message308">
+            <summary>
+              Busca una cadena traducida similar a Affectation de conducteur terminée.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message309">
+            <summary>
+              Busca una cadena traducida similar a Voulez-vous vraiment modifier le statut d&apos;envoi des documents marqués ?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message310">
+            <summary>
+              Busca una cadena traducida similar a processus terminé.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message311">
+            <summary>
+              Busca una cadena traducida similar a Êtes-vous sûr de changer le statut d&apos;expédition en Livré pour les documents marqués ?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message312">
+            <summary>
+              Busca una cadena traducida similar a Vous devez sélectionner un type d&apos;Occurrence.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message313">
+            <summary>
+              Busca una cadena traducida similar a Vous devez sélectionner un type d&apos;état.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message314">
+            <summary>
+              Busca una cadena traducida similar a Vous devez sélectionner une option pour programmer.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message315">
+            <summary>
+              Busca una cadena traducida similar a Vous devez sélectionner la date à programmer.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message316">
+            <summary>
+              Busca una cadena traducida similar a Sélectionnez un type de consolidation.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message317">
+            <summary>
+              Busca una cadena traducida similar a Êtes-vous sûr d&apos;enregistrer {0} dans les enregistrements marqués ?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message318">
+            <summary>
+              Busca una cadena traducida similar a Document : {0} Impossible de mettre à jour {1}.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message319">
+            <summary>
+              Busca una cadena traducida similar a Êtes-vous sûr de changer le statut d&apos;envoi en Planifié pour les documents marqués ?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message320">
+            <summary>
+              Busca una cadena traducida similar a Ajout d&apos;un enregistrement de feuille d&apos;expédition.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message321">
+            <summary>
+              Busca una cadena traducida similar a Êtes-vous sûr de changer le statut d&apos;envoi en Planifié pour les documents marqués ?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message322">
+            <summary>
+              Busca una cadena traducida similar a Êtes-vous sûr de changer le statut d&apos;envoi en Planifié pour les documents marqués ?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message324">
+            <summary>
+              Busca una cadena traducida similar a La feuille de répartition a été créée pour le conducteur &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message325">
+            <summary>
+              Busca una cadena traducida similar a Mise à jour du suivi des expéditions.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message326">
+            <summary>
+              Busca una cadena traducida similar a Mise à jour du suivi des envois.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message327">
+            <summary>
+              Busca una cadena traducida similar a Sélectionnez au moins 1 enregistrement.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message328">
+            <summary>
+              Busca una cadena traducida similar a Sélectionner un état.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message329">
+            <summary>
+              Busca una cadena traducida similar a La commande est déjà planifiée.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message330">
+            <summary>
+              Busca una cadena traducida similar a Sélectionnez une occurrence.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message331">
+            <summary>
+              Busca una cadena traducida similar a Mauvais imei.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message332">
+            <summary>
+              Busca una cadena traducida similar a L&apos;Imei est attribué à un autre employé \n Voulez-vous le mettre à jour ?.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message333">
+            <summary>
+              Busca una cadena traducida similar a L&apos;IMEI a été mis à jour correctement.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.Message334">
+            <summary>
+              Busca una cadena traducida similar a Validation des données.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.MessageFinTracker">
+            <summary>
+              Busca una cadena traducida similar a Chargement du tracker terminé.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.MessageInicioTracker">
+            <summary>
+              Busca una cadena traducida similar a Démarrage du téléchargement du tracker.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.NotRowFound">
+            <summary>
+              Busca una cadena traducida similar a Aucune donnée trouvée avec les critères sélectionnés.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.SAPNotRunning">
+            <summary>
+              Busca una cadena traducida similar a SAP Business One n&apos;est pas en cours d&apos;exécution.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Frances.StartLoading">
+            <summary>
+              Busca una cadena traducida similar a Frais de départ ....
+            </summary>
+        </member>
+        <member name="T:Vistony.DTW.Win.Constans.Idioma.Spanish">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00001">
+            <summary>
+              Busca una cadena traducida similar a Asistente de importación de datos.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00002">
+            <summary>
+              Busca una cadena traducida similar a este asistente lo guía a través de los pasos para importar datos..
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00003">
+            <summary>
+              Busca una cadena traducida similar a Asistente de importación de datos para SAP Business One..
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00004">
+            <summary>
+              Busca una cadena traducida similar a Este asistente lo ayuda a importar datos de un sistema heredado de información SAP Business One..
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00005">
+            <summary>
+              Busca una cadena traducida similar a Antes de continuar, asegúrese de tener los archivos de datos de origen disponibles como.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00006">
+            <summary>
+              Busca una cadena traducida similar a un archivo plano o en una base de datos a la que se puede acceder a través de ODBC.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00007">
+            <summary>
+              Busca una cadena traducida similar a Para comenzar, elija el botón &quot;Siguiente&quot;.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00008">
+            <summary>
+              Busca una cadena traducida similar a Paso 1 : seleccione el tipo de datos.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00009">
+            <summary>
+              Busca una cadena traducida similar a Seleccione el tipo de datos que desea importar. Para continuar, elija el botón &quot;Siguiente&quot;.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00010">
+            <summary>
+              Busca una cadena traducida similar a Datos de configuración (por ejemplo, códigos de impuestos, banco, etc.).
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00011">
+            <summary>
+              Busca una cadena traducida similar a Master Data (for example, Business Partners, and so on).
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00012">
+            <summary>
+              Busca una cadena traducida similar a Datos transaccionales (por ejemplo, facturas de venta, órdenes de compra, etc.).
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00013">
+            <summary>
+              Busca una cadena traducida similar a Paso 2: especificar el tipo de operación.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00014">
+            <summary>
+              Busca una cadena traducida similar a Seleccione el tipo de operación que desea realizar al importar los datos..
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00015">
+            <summary>
+              Busca una cadena traducida similar a Para continuar, seleccione el botón &quot;Siguiente&quot;..
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00016">
+            <summary>
+              Busca una cadena traducida similar a Agregar nuevos datos.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00017">
+            <summary>
+              Busca una cadena traducida similar a Actualizar datos existentes.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00018">
+            <summary>
+              Busca una cadena traducida similar a Agregar nuevos datos y actualizar datos existentes.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00019">
+            <summary>
+              Busca una cadena traducida similar a Paso 3: seleccione un objeto comercial.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00020">
+            <summary>
+              Busca una cadena traducida similar a Paso 3: seleccione un objeto comercial.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Label00021">
+            <summary>
+              Busca una cadena traducida similar a Objecto Seleccionado.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.LabelAntes">
+            <summary>
+              Busca una cadena traducida similar a &lt; Atrás.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.LabelAyuda">
+            <summary>
+              Busca una cadena traducida similar a Ayuda.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.LabelCancelar">
+            <summary>
+              Busca una cadena traducida similar a Cancelar.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.LabelCargar">
+            <summary>
+              Busca una cadena traducida similar a Cargar.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.LabelDescargar">
+            <summary>
+              Busca una cadena traducida similar a Descargar Plantilla.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.LabelFinalizar">
+            <summary>
+              Busca una cadena traducida similar a Finalizar.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.LabelSiguiente">
+            <summary>
+              Busca una cadena traducida similar a Siguiente &gt;.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.String1">
+            <summary>
+              Busca una cadena traducida similar a Paso 3: seleccione un objeto comercial.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.Titulo">
+            <summary>
+              Busca una cadena traducida similar a SAP Business One Data Transfer Workbench.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Constans.Idioma.Spanish.TituloTablaDTW">
+            <summary>
+              Busca una cadena traducida similar a Objecto.
+            </summary>
+        </member>
+        <member name="M:Vistony.DTW.Win.Program.Main(System.String[])">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:Vistony.DTW.Win.ApplicationEvent.SB1_Application_AppEvent(SAPbouiCOM.BoAppEventTypes)">
+            <summary>
+            
+            </summary>
+            <param name="EventType"></param>
+        </member>
+        <member name="M:Vistony.DTW.Win.Sb1Connection.ConnectToSAP">
+            <summary>
+            Conecta el AddOn a la instancia de SAP que se encuentra cargada (desarrollo) o en la instancia
+            que lo invoca en Producción.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vistony.DTW.Win.SB1_FormMenuEvent.SB1_Application_FormMenuEvent(SAPbouiCOM.MenuEvent@,System.Boolean@)">
+            <summary>
+            
+            </summary>
+            <param name="pVal"></param>
+            <param name="BubbleEvent"></param>
+        </member>
+        <member name="T:Vistony.DTW.Win.Sb1Globals">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.DTW.Win.Sb1Globals.oCompany">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.DTW.Win.Sb1Globals.oCompanyService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.DTW.Win.Sb1Globals.DbServerType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.DTW.Win.Sb1Globals.CompanyName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.DTW.Win.Sb1Globals.CompanyDB">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.DTW.Win.Sb1Globals.Autorizacion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.DTW.Win.Sb1Globals.oForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.DTW.Win.Sb1Globals.UserSignature">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.DTW.Win.Sb1Globals.UserName">
+            <summary>
+            
+            </summary>
+        </member>
+        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:Vistony.DTW.Win.SB1_MainMenuEvent.SB1_Application_MainMenuEvent(SAPbouiCOM.MenuEvent@,System.Boolean@)" -->
+        <member name="M:Vistony.DTW.Win.SB1_MainMenuEvent.OnShowDTW">
+            fin del  metodo
+        </member>
+        <member name="M:Vistony.DTW.Win.Sb1MetaData.AddMenusEnglisUnitedStates">
+            <summary>
+            
+            </summary>
+        </member>
+        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:Vistony.DTW.Win.Sb1MetaData.AddUserProcedure" -->
+        <member name="M:Vistony.DTW.Win.Sb1MetaData.AddIcon">
+            <summary>
+            ddd
+            </summary>
+        </member>
+        <member name="T:Vistony.DTW.Win.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Properties.Resources.String1">
+            <summary>
+              Busca una cadena traducida similar a 1.
+            </summary>
+        </member>
+        <member name="P:Vistony.DTW.Win.Properties.Resources.String2">
+            <summary>
+              Busca una cadena traducida similar a 2.
+            </summary>
+        </member>
+        <member name="M:Vistony.DTW.Win.Utils.LoadMiscelaneo(SAPbouiCOM.ComboBox@,System.String)">
+            <summary>
+            /
+            </summary>
+            <param name="oComboBox"></param>
+            <param name="tableName"></param>
+        </member>
+        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:Vistony.DTW.Win.Utils.LoadMiscelaneo(SAPbouiCOM.Column@,System.String)" -->
+        <member name="M:Vistony.DTW.Win.Utils.AssignLineNro(SAPbouiCOM.Form@,SAPbouiCOM.Grid@,System.Double@)">
+            <summary>
+            asigna el numero de registro dentro del Grid en la primera columna pone la númeracion
+            verifica ´primero que existan registros
+            </summary>
+            <param name="oGrid"></param>
+            <param name="oForm"></param>
+        </member>
+        <member name="M:Vistony.DTW.Win.Utils.CheckRowsEx(SAPbouiCOM.Form,SAPbouiCOM.Grid,System.Double@,System.Int32@)">
+            <summary>
+            
+            </summary>
+            <param name="oForm"></param>
+            <param name="oGrid"></param>
+            <param name="totalWeight"></param>
+            <param name="rowsSelected"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vistony.DTW.Win.Utils.CheckRows(SAPbouiCOM.Form,SAPbouiCOM.Grid,System.Double@,System.Int32@)">
+            <summary>
+            
+            </summary>
+            <param name="oForm"></param>
+            <param name="oGrid"></param>
+            <param name="totalWeight"></param>
+            <param name="rowsSelected"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Vistony.DTW.Constans.AddonWinForms.frmParametros">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,10 @@
+D:\William\AddDTW\Vistony.DTW.BLL\bin\Debug\Vistony.DTW.BLL.dll.config
+D:\William\AddDTW\Vistony.DTW.BLL\bin\Debug\Vistony.DTW.BLL.dll
+D:\William\AddDTW\Vistony.DTW.BLL\bin\Debug\Vistony.DTW.BLL.pdb
+D:\William\AddDTW\Vistony.DTW.BLL\bin\Debug\Forxap.Framework.dll
+D:\William\AddDTW\Vistony.DTW.BLL\bin\Debug\SAPBusinessOneSDK.dll
+D:\William\AddDTW\Vistony.DTW.BLL\bin\Debug\Vistony.DTW.DAL.dll
+D:\William\AddDTW\Vistony.DTW.BLL\bin\Debug\Vistony.DTW.DAL.pdb
+D:\William\AddDTW\Vistony.DTW.BLL\obj\Debug\Vistony.DTW.BLL.csprojResolveAssemblyReference.cache
+D:\William\AddDTW\Vistony.DTW.BLL\obj\Debug\Vistony.DTW.BLL.dll
+D:\William\AddDTW\Vistony.DTW.BLL\obj\Debug\Vistony.DTW.BLL.pdb
