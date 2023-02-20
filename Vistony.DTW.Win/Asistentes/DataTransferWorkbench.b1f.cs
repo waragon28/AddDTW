@@ -86,6 +86,7 @@ namespace Vistony.DTW.Win.Asistentes
                 oForm.SetUserDataSource("UD_0", "Y");
                 OptionBtn0.Selected = true;
                 oForm.PaneLevel = 2;
+                //aas
             }
             if (oForm.PaneLevel == 3)
             {
